@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundial 2026 | Estadísticas y Apuestas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">Mundial 2026</p>
+      <h1>Estadísticas y apuestas deportivas</h1>
+      <p class="subtitle">Calendario, predicciones, corners, tiros a puerta, cuotas y señales estadísticas actualizadas diariamente.</p>
+    </div>
+    <div class="header-card">
+      <span>Última actualización</span>
+      <strong id="lastUpdate">--</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <input id="searchInput" type="search" placeholder="Buscar selección, estadio o ciudad..." />
+      <select id="groupFilter">
+        <option value="all">Todos los grupos</option>
+      </select>
+      <select id="marketFilter">
+        <option value="all">Todos los mercados</option>
+        <option value="winner">Ganador</option>
+        <option value="corners">Corners</option>
+        <option value="shots">Tiros a puerta</option>
+        <option value="goals">Goles</option>
+      </select>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="metric-card">
+        <span>Partidos cargados</span>
+        <strong id="totalMatches">0</strong>
+      </article>
+      <article class="metric-card">
+        <span>Promedio goles esperados</span>
+        <strong id="avgXg">0.00</strong>
+      </article>
+      <article class="metric-card">
+        <span>Mayor probabilidad de victoria</span>
+        <strong id="topWinner">--</strong>
+      </article>
+      <article class="metric-card">
+        <span>Señales de valor</span>
+        <strong id="valueSignals">0</strong>
+      </article>
+    </section>
+
+    <section class="layout">
+      <section class="panel">
+        <div class="section-title">
+          <div>
+            <p class="eyebrow">Calendario</p>
+            <h2>Partidos, horarios y estadios</h2>
+          </div>
+          <button id="refreshButton">Actualizar datos</button>
+        </div>
+        <div id="matchesList" class="matches-list"></div>
+      </section>
+
+      <aside class="panel">
+        <div class="section-title compact">
+          <div>
+            <p class="eyebrow">Modelo estadístico</p>
+            <h2>Top predicciones</h2>
+          </div>
+        </div>
+        <div id="predictionsList" class="predictions-list"></div>
+
+        <div class="section-title compact roster-heading">
+          <div>
+            <p class="eyebrow">Plantillas</p>
+            <h2>Selecciones y jugadores</h2>
+          </div>
+        </div>
+        <select id="teamSelect" class="team-select">
+          <option value="">Seleccionar equipo</option>
+        </select>
+        <div id="squadPanel" class="squad-panel"></div>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <p>Uso informativo. Las apuestas tienen riesgo. El modelo muestra probabilidades, no certezas; si fuera certeza, se llamaría máquina de imprimir dinero.</p>
+  </footer>
+
+  <script src="app.js?v=20260609-flags-hq"></script>
+</body>
+</html>

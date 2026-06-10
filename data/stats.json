@@ -1,0 +1,58 @@
+[
+  {
+    "matchId": "m001",
+    "matchLabel": "México vs Sudáfrica",
+    "primaryMarket": "winner",
+    "winnerProbability": { "team": "México", "max": 54 },
+    "corners": { "expected": 9.1, "home": 5.2, "away": 3.9 },
+    "shotsOnTarget": { "expected": 8.4, "home": 4.9, "away": 3.5 },
+    "expectedGoals": { "total": 2.45, "home": 1.52, "away": 0.93 },
+    "goalsMarket": { "suggestion": "Over 1.5" },
+    "recommendation": "México gana o empate + over 1.5 goles si la cuota mantiene valor.",
+    "confidence": 67,
+    "fairOdd": 1.49,
+    "valueSignal": true
+  },
+  {
+    "matchId": "m002",
+    "matchLabel": "Canadá vs Qatar",
+    "primaryMarket": "corners",
+    "winnerProbability": { "team": "Canadá", "max": 49 },
+    "corners": { "expected": 8.7, "home": 5.1, "away": 3.6 },
+    "shotsOnTarget": { "expected": 7.2, "home": 4.4, "away": 2.8 },
+    "expectedGoals": { "total": 2.18, "home": 1.34, "away": 0.84 },
+    "goalsMarket": { "suggestion": "Under 3.5" },
+    "recommendation": "Canadá más corners del partido si sale por encima de cuota justa.",
+    "confidence": 61,
+    "fairOdd": 1.64,
+    "valueSignal": false
+  },
+  {
+    "matchId": "m003",
+    "matchLabel": "Estados Unidos vs Paraguay",
+    "primaryMarket": "shots",
+    "winnerProbability": { "team": "Estados Unidos", "max": 46 },
+    "corners": { "expected": 9.8, "home": 5.5, "away": 4.3 },
+    "shotsOnTarget": { "expected": 9.1, "home": 5.0, "away": 4.1 },
+    "expectedGoals": { "total": 2.62, "home": 1.42, "away": 1.2 },
+    "goalsMarket": { "suggestion": "Ambos anotan" },
+    "recommendation": "Mercado de tiros a puerta del local por volumen ofensivo esperado.",
+    "confidence": 58,
+    "fairOdd": 1.72,
+    "valueSignal": true
+  },
+  {
+    "matchId": "m004",
+    "matchLabel": "Brasil vs Marruecos",
+    "primaryMarket": "goals",
+    "winnerProbability": { "team": "Brasil", "max": 57 },
+    "corners": { "expected": 10.2, "home": 6.0, "away": 4.2 },
+    "shotsOnTarget": { "expected": 9.8, "home": 5.8, "away": 4.0 },
+    "expectedGoals": { "total": 2.78, "home": 1.75, "away": 1.03 },
+    "goalsMarket": { "suggestion": "Brasil over 1.5 goles" },
+    "recommendation": "Brasil gana con protección: empate no acción si la cuota directa baja demasiado.",
+    "confidence": 69,
+    "fairOdd": 1.45,
+    "valueSignal": true
+  }
+]
